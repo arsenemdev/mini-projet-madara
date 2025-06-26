@@ -727,21 +727,78 @@
       }
 
       /* ========== RESPONSIVE ========== */
-      @media (max-width: 768px) {
-        nav ul {
-          flex-direction: column;
-          gap: 10px;
-        }
+     @media (max-width: 768px) {
+  .header_content {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
 
-        #apropos {
-          flex-direction: column;
-          text-align: center;
-        }
+  .logo {
+    justify-content: center;
+    font-size: 1.2em;
+  }
 
-        #competences ul {
-          columns: 1;
-        }
-      }
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .slogan h1 {
+    font-size: 1.3em;
+  }
+
+  .slogan p {
+    font-size: 0.9em;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  .nav a {
+    font-size: 1.2em;
+  }
+
+
+  /* Section Accueil responsive */
+  #accueil {
+    height: auto; /* Permet à la section de s’adapter en hauteur */
+    padding: 40px 15px;
+    background-attachment: scroll; /* Fixe peut poser problème sur mobile */
+  }
+
+  #accueil .intro-text {
+    padding: 25px 15px;
+    max-width: 90vw; /* adapte la largeur à l'écran */
+    box-shadow: none; /* allège sur mobile */
+  }
+
+  #accueil .intro-text h2 {
+    font-size: 1.8em;
+  }
+
+  #accueil .intro-text p {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+
+  .cta-button {
+    padding: 10px 25px;
+    font-size: 0.9em;
+  }
+  
+  /* Pour les titres h2 */
+  h2 {
+    font-size: 1.6em;
+  }
+}
+
+
+
+      
     </style>
   </head>
   <body>
