@@ -29,6 +29,11 @@
         box-sizing: border-box;
       }
 
+      html, body {
+  overflow-x: hidden;
+}
+
+
       body {
         background-color: var(--secondary);
         color: var(--text-main);
@@ -795,26 +800,31 @@
     font-size: 1.6em;
   }
 
-
+  
   #apropos {
     padding: 40px 15px;
-    background-attachment: scroll; /* fixe pose problème sur mobile */
+    background-attachment: scroll;
   }
 
   .apropos_content {
     flex-direction: column;
     padding: 20px;
     gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   #apropos img {
-    max-width: 80vw; /* image plus large mais pas trop */
+    width: 100%;
+    max-width: 320px;
     height: auto;
-    border-width: 2px;
+    margin: auto;
+    display: block;
   }
 
   #apropos .texte {
     min-width: auto;
+    text-align: center;
   }
 
   #apropos .texte h2 {
@@ -826,7 +836,7 @@
     line-height: 1.4;
   }
 
-  
+
   #portfolio {
     padding: 40px 15px;
   }
@@ -836,13 +846,19 @@
     margin-bottom: 25px;
   }
 
+  .grid-projets {
+    grid-template-columns: 1fr; /* une seule colonne */
+  }
+
   .projet-card {
     padding: 15px;
+    box-sizing: border-box;
   }
 
   .projet-card img {
-    height: 140px;
-    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
   }
 
   .projet-card h3 {
@@ -854,7 +870,6 @@
     font-size: 0.9em;
   }
 
-  /* Lightbox responsive */
   .lightbox {
     padding: 20px 10px;
   }
@@ -870,6 +885,8 @@
     right: 20px;
   }
 }
+
+
 
 
       
