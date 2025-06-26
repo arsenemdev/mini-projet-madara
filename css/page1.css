@@ -1,0 +1,205 @@
+/* les élements principaux de la page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(0, 0, 0),
+     rgba(0, 0, 0, 0.5)), url('../images/coline-sable.jpg');
+    background-size: cover;
+    background-size: 1000px 800px;
+     background-repeat: no-repeat;
+     background-position: center;
+     color: white;
+
+}
+header{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid rgb(173, 8, 138);
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px 
+    
+    
+    
+    
+}
+.container-header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.emoji-dollars{
+    width: 50px;
+    height: auto;
+}
+
+/* nav prend toute la largeur disponible entre le logo et la bordure droite */
+.nav{ 
+    display: flex;
+    justify-content: space-between; /* sépare nav left et nav right */
+    align-items: center; 
+    width: 100%;  
+}
+/* nav left centré horizontalement */
+.nav-left{ 
+     display: flex;
+     list-style: none;
+     gap: 15px;
+     margin: auto; /* centré horizontalement */
+     list-style: none;
+}
+
+.nav-right{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;   
+}
+.nav-left .accueil a{ /* mise en forme du lien accueil */
+     background-color: hotpink;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.nav-left .accueil a :hover{
+    background-color: white;
+    color: hotpink;
+}
+
+.nav-right li a
+{ /* mise en forme du lien contez nous */
+    background-color: hotpink;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.nav-right li a :hover{
+    background-color: white;
+    color: hotpink;
+}
+
+section{
+    text-align: center;
+    padding-top: 170px;  
+}
+.paragraphe1 p{
+    font-size: 2em;
+    font-weight: bold;
+
+
+}
+.paragraphe2 p{
+    margin-top: 40px;
+}
+/* style pour les élements du span  dans un élement*/
+.start-up,
+.dirigeant,
+.tele,
+.social {
+    background-color: hotpink;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 0 4px;
+    display: inline-block;
+}
+
+.paragraphe2 nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    margin-top: 40px;
+    text-decoration: none;
+}
+.contact1 a{
+    background-color: hotpink;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.contact1 a :hover{
+    background-color: white;
+    color: hotpink;
+}
+.menu-box a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+@media screen and (max-width: 768px){
+/* adapté aux pétites écrans ou moyens */
+
+.container-header{
+    flex-direction: column;
+    align-items: center;
+} 
+.nav-left,
+.nav-right{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.emoji-dollars{
+    width: 40px;
+    margin-bottom: 10px;
+}
+.paragraphe2 p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.paragraphe2 ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+}
+
+    
+
+
+
+
+
+    
+
+     
+
+
+    
+
+
+
+
+
+
+
+

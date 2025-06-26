@@ -1,0 +1,129 @@
+/* style general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* layout global */
+body{
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 794px; /* largeur A4 en pixel à 96dpi */
+    margin: auto;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden; /* evite tout déborment horizontal */
+}
+/* layout global */
+.section{
+   margin-bottom: 10px; /* réduit les espaces entres les sections */
+}
+.section_content{
+    display: flex;
+    gap: 20px;
+    align-items: center; /* aligner verticalement les images et textes */
+}
+
+
+/* l'entête */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+.header-gauche{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.cerf-volant{
+    width: 50px;
+    height: auto;
+}
+.header-gauche h2{
+    font-size: 1.2em;
+}
+
+.header-droite .mask-genere{
+    width: 70px;
+    height: auto;
+}
+
+/* section colonne gauche images */
+.images-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.images-col img{
+    width: 100%;
+    height: 180px; /* ajuster la hauteur */
+    object-fit: cover; /* garder une bonne apparences même coupée */
+    max-width: 300px;
+    border-radius: 6px;
+}
+
+/* section colonne texte */
+.text-col{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: justify;
+}
+
+.text-col h1,
+.text-col h2{
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.text-col p{
+    line-height: 1.6;
+    font-size: 0.95em;
+    color: #333;
+}
+
+@media screen and(max-width: 768px){
+
+header{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+}
+.images-col img{
+    width: 100%;
+    max-width: 100%;
+    height:160px;/* eviter qu'elles soit trop haut */  
+}
+.text-col{
+    text-align: center;
+    align-items: center;
+}
+.text-col h1,
+.text-col h2{
+    font-size: 1.4em; /* réduit la taille des tritres */
+    text-align: center;
+}
+.text-col p{
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+}
+
+
+    
+
+
