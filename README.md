@@ -46,6 +46,7 @@ mini-projet-madara/
 ├── video/
 ├── .gitattributes
 └── README.md
+
 ```
 
 ---
