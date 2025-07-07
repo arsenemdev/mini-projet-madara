@@ -7,8 +7,6 @@ Il s’agit d’un projet personnel de formation pour mettre en pratique mes com
 
 > Maquette visuelle avec animation, responsive design, effets sur images et sections interactives.
 
-![Aperçu du projet](./images/demo-madara.png)
-
 ---
 
 ## 🚀 Démo en ligne
@@ -39,20 +37,22 @@ Il s’agit d’un projet personnel de formation pour mettre en pratique mes com
 
 ## 📁 Arborescence du projet
 
-Le projet est organisé comme suit :
+Le projet est structuré ainsi :
+
+- `index.html` : le fichier principal de la page
+- `css/` : contient le style du site
+- `images/` : les images utilisées
+- `video/` : la vidéo d’accueil
+- `.gitattributes` : fichier de configuration GitHub
+- `README.md` : la description du projet mini-projet-madara/
 
 ```
-mini-projet-madara/
-│
-├── index.html
-├── css/
-├── images/
-├── video/
-├── .gitattributes
-└── README.md
-```
+
+---
 
 ## 📫 Contact
 
-Merci d’avoir visité ce projet ! 🙏
+Merci d’avoir visité ce projet ! 🙏\
 📩 Contact : [arsenemicheladja@gmail.com](mailto:arsenemicheladja@gmail.com)
+
+```
