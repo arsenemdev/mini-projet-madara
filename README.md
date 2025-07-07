@@ -6,7 +6,8 @@ Il s’agit d’un projet personnel de formation pour mettre en pratique mes com
 ## 🖼️ Aperçu
 
 > Maquette visuelle avec animation, responsive design, effets sur images et sections interactives.
-> ![Aperçu du projet](./images/demo-madara.png)
+
+![Aperçu du projet](./images/demo-madara.png)
 
 ---
 
@@ -38,15 +39,17 @@ Il s’agit d’un projet personnel de formation pour mettre en pratique mes com
 
 ## 📁 Arborescence du projet
 
+Le projet est organisé comme suit :
+
 ```
 mini-projet-madara/
+│
 ├── index.html
 ├── css/
 ├── images/
 ├── video/
 ├── .gitattributes
 └── README.md
-
 ```
 
 ---
