@@ -44,15 +44,14 @@ Le projet est structuré ainsi :
 - `images/` : les images utilisées
 - `video/` : la vidéo d’accueil
 - `.gitattributes` : fichier de configuration GitHub
-- `README.md` : la description du projet mini-projet-madara/
-
-```
+- `README.md` : la description du projet
 
 ---
 
 ## 📫 Contact
 
-Merci d’avoir visité ce projet ! 🙏\
-📩 Contact : [arsenemicheladja@gmail.com](mailto:arsenemicheladja@gmail.com)
+Merci d’avoir visité ce projet 🙏
 
-```
+Si vous avez des retours, des suggestions ou simplement envie d’échanger, n’hésitez pas à me contacter :
+
+📩 **Email** : [arsenemicheladja@gmail.com](mailto:arsenemicheladja@gmail.com)
