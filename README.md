@@ -52,8 +52,6 @@ mini-projet-madara/
 └── README.md
 ```
 
----
-
 ## 📫 Contact
 
 Merci d’avoir visité ce projet ! 🙏
